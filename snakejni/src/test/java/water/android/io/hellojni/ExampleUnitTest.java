@@ -1,4 +1,4 @@
-package water.android.io.snakejni;
+package water.android.io.hellojni;
 
 import org.junit.Test;
 

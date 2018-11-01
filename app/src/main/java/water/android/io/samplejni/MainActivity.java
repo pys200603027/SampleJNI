@@ -4,8 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import water.android.io.snakejni.SnakeJNI;
-import water.android.io.snakejni.runtime.SampleRuntimeJNI;
+import water.android.io.hellojni.SnakeJNI;
 
 public class MainActivity extends AppCompatActivity {
 
