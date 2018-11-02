@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import water.android.io.hellojni.SnakeJNI;
+import water.android.io.snake.SnakeJNI;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(new SnakeJNI().getHelloWorld());
+        tv.setText("Snake");
+
+        SnakeJNI snakeJNI=new SnakeJNI();
+        snakeJNI.nativeCreate();
+        snakeJNI.nativeDestroy();
     }
 }

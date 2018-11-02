@@ -1,4 +1,4 @@
-package water.android.io.hellojni;
+package water.android.io.snake;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
