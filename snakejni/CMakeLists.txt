@@ -18,6 +18,7 @@ add_library( # Sets the name of the library.
 
         # Provides a relative path to your source file(s).
         src/main/cpp/utils/inithelper.cpp
+        src/main/cpp/utils/nativebean.cpp
         src/main/cpp/native-jni.cpp
         )#动态注册方式
 

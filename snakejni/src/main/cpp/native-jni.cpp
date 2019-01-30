@@ -3,7 +3,7 @@
 //
 #include "utils/log.h"
 #include "utils/inithelper.h"
-#include "utils/nativebean.h
+#include "utils/nativebean.h"
 #include <string>
 #include <jni.h>
 
