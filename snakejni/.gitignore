@@ -71,5 +71,6 @@ fastlane/readme.md
 *.project
 *.classpath
 *.settings
+*.cxx
 
 
